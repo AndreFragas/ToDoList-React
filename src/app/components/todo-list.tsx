@@ -51,10 +51,9 @@ const TodoList = () => {
     }
 
     return ( 
-        <div className='container bg-violet-400 mt-20 p-6 rounded-md lg:px-8'>
+        <div className='container bg-gray-400 p-6 rounded-md lg:px-8 max-w-full'>
             <Form createTodo = {create}/>
-            { 
-                <ul role="list" className="divide-y divide-gray-100">
+            <ul role="list" className="divide-y divide-gray-100 w-full">
                     {todoValue.map((todo, index) => (
                         <li key={todo.id} className="flex justify-between gap-x-6 py-5">
                             {todo.isEditing ? (
@@ -65,7 +64,7 @@ const TodoList = () => {
                         </li>
                     ))} 
                 </ul>
-            }
+            
         </div>
     )
 }
