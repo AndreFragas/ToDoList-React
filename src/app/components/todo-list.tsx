@@ -11,19 +11,19 @@ const TodoList = () => {
     const [todoValue, setTodoValue] = useState<TodoType[]>([
         {
             id: '6d4ec95b-4db6-4dc1-90b3-65e0da315f07',
-            task: 'Teste status 0',
+            task: 'Test status 0',
             isEditing: false,
             status: 0 
         },
         {
             id: 'ee83bf12-1b3b-482a-92ae-6c6a6328b8f0',
-            task: 'Teste status 1',
+            task: 'Test status 1',
             isEditing: false,
             status: 1 
         },
         {
             id: 'df5aca68-231c-4f0b-9a9e-64196fdbef7d',
-            task: 'Teste status 2',
+            task: 'Test status 2',
             isEditing: false,
             status: 2 
         },

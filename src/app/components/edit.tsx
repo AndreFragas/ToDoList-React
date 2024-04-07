@@ -20,7 +20,7 @@ const Edit = ({ editTodo, task }: Props): JSX.Element =>  {
         <form className='font-primary w-full' onSubmit={handleSubmit}>
             <input 
                 type='text' 
-                className='outline-none bg-transparent border border-slate-300 p-4 w-11/12 text-black mb-8 rounded placeholder:text-slate-500' 
+                className='outline-none bg-transparent border border-slate-300 p-4 w-11/12 text-gray-700 mb-8 rounded placeholder:text-gray-100' 
                 placeholder='Update task'
                 onChange={(e) => setValue(e.target.value)}
             />

@@ -19,9 +19,10 @@ const Form = ({ createTodo }: Props): JSX.Element =>  {
             <div className="flex items-center">
             <input 
                 type='text' 
-                className='outline-none bg-transparent border border-slate-300 p-4 w-[600px] text-black rounded placeholder:text-slate-500'
+                className='outline-none bg-transparent border border-slate-300 p-4 w-[600px] text-gray-700 rounded placeholder:text-gray-100'
                 placeholder='Describe your task'
                 onChange={(e) => setValue(e.target.value)}
+                value={value}
             />
             <button 
                 className='bg-gray-700 border-none p-2 text-white cursor-pointer rounded ml-5'
